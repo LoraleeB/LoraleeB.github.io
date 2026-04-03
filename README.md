@@ -145,7 +145,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
 
 <div class="brief-header">
   <h1>Kidzsmart — Creative Brief</h1>
-  <p>Unified brief • Complete all required fields before kickoff <span class="req-badge">* Required</span></p>
+  <p>Fill out the following client information to support the development of the creative strategy and plan. <span class="req-badge">* Required</span></p>
   <div class="header-meta">
     <span>Compiled Aug 22, 2025</span>
     <span>Version 1.0</span>
