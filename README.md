@@ -333,7 +333,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
     </div>
     <div class="grid-2" style="margin-top:12px;">
       <div class="field"><label>Approver Count</label><input type="number" min="1" max="10" placeholder="e.g. 2"></div>
-      <div class="field"><label>Turnaround SLA</label>
+      <div class="field"><label>Turnaround Service Level Agreement</label>
         <div class="chips" data-multi="false">
           <div class="chip"><span class="chk">✓</span>1 BD</div>
           <div class="chip"><span class="chk">✓</span>2 BD</div>
