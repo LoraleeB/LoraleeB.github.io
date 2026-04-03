@@ -335,9 +335,9 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
       <div class="field"><label>Approver Count</label><input type="number" min="1" max="10" placeholder="e.g. 2"></div>
       <div class="field"><label>Turnaround Service Level Agreement</label>
         <div class="chips" data-multi="false">
-          <div class="chip"><span class="chk">✓</span>1 BD</div>
-          <div class="chip"><span class="chk">✓</span>2 BD</div>
-          <div class="chip"><span class="chk">✓</span>3 BD</div>
+          <div class="chip"><span class="chk">✓</span>1 Business Days</div>
+          <div class="chip"><span class="chk">✓</span>2 Business Days</div>
+          <div class="chip"><span class="chk">✓</span>3 Business Days</div>
           <div class="chip"><span class="chk">✓</span>Other</div>
         </div>
       </div>
