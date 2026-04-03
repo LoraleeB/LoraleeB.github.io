@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -147,8 +148,9 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
   <h1>Kidzsmart — Creative Brief</h1>
   <p>Fill out the following client information to support the development of the creative strategy and plan. <span class="req-badge">* Required</span></p>
   <div class="header-meta">
+    <span>Compiled Aug 22, 2025</span>
     <span>Version 1.0</span>
-    <span>&copy; 2026 Kidzsmart Communications</span>
+    <span>Kidzsmart Communications</span>
   </div>
 </div>
 
@@ -214,6 +216,13 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
   <div class="sub-section">
     <div class="sub-title">Background / Business Context</div>
     <div class="field"><textarea placeholder="Market/category context, opportunity or challenges, past learnings/benchmarks..."></textarea></div>
+  </div>
+
+  <div class="sub-section">
+    <div class="sub-title">Client Pain Points &amp; Challenges</div>
+    <div class="field"><label>What's keeping you up at night? What problem do you need us to solve?</label><textarea placeholder="e.g. Kids menu sales have declined, we're not reaching parents on social, our creative feels dated..." style="min-height:90px;"></textarea></div>
+    <div class="field"><label>What have you already tried that hasn't worked?</label><textarea placeholder="e.g. We ran a promotion last quarter but saw no lift, our last agency's creative didn't resonate with kids..."></textarea></div>
+    <div class="field"><label>What does success look like for you?</label><textarea placeholder="e.g. More families choosing us on weekends, kids asking to come back, measurable increase in kids menu orders..."></textarea></div>
   </div>
 
   <div class="sub-section">
@@ -333,11 +342,11 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
     </div>
     <div class="grid-2" style="margin-top:12px;">
       <div class="field"><label>Approver Count</label><input type="number" min="1" max="10" placeholder="e.g. 2"></div>
-      <div class="field"><label>Turnaround Service Level Agreement</label>
+      <div class="field"><label>Turnaround SLA</label>
         <div class="chips" data-multi="false">
-          <div class="chip"><span class="chk">✓</span>1 Business Days</div>
-          <div class="chip"><span class="chk">✓</span>2 Business Days</div>
-          <div class="chip"><span class="chk">✓</span>3 Business Days</div>
+          <div class="chip"><span class="chk">✓</span>1 BD</div>
+          <div class="chip"><span class="chk">✓</span>2 BD</div>
+          <div class="chip"><span class="chk">✓</span>3 BD</div>
           <div class="chip"><span class="chk">✓</span>Other</div>
         </div>
       </div>
