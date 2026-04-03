@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -136,7 +137,14 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
 .modal-box h2{font-size:16px;font-weight:600;margin-bottom:1rem;}
 .modal-pre{font-size:11px;line-height:1.8;white-space:pre-wrap;background:var(--bg);padding:1rem;border-radius:var(--radius);border:1px solid var(--border);color:var(--muted);font-family:monospace;}
 .modal-close{margin-top:1rem;padding:8px 16px;border-radius:var(--radius);border:1px solid var(--border);background:var(--surface);font-size:13px;cursor:pointer;font-family:var(--font);}
-@media print{.section-nav,.footer-bar,.modal{display:none!important;}body{background:white;padding:0;}.section{page-break-inside:avoid;}}
+@media print{
+  .section-nav,.footer-bar,.modal{display:none!important;}
+  body{background:white;padding:0;margin:0;}
+  .page{max-width:100%;padding:0;margin:0;}
+  .brief-header{border-radius:0;margin-bottom:1rem;padding:1rem 1.5rem;}
+  .section{border-radius:0;border-left:none;border-right:none;border-top:none;margin-bottom:0;padding:1rem 1.5rem;page-break-inside:avoid;}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 @media(max-width:600px){.grid-2,.grid-3{grid-template-columns:1fr;}.full{grid-column:1;}.header-meta{gap:.75rem;}}
 </style>
 </head>
@@ -148,7 +156,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);padding:2rem
   <p>Fill out the following client information to support the development of the creative strategy and plan. <span class="req-badge">* Required</span></p>
   <div class="header-meta">
     <span>Version 1.0</span>
-    <span> &copy; 2026 Kidzsmart Communications</span>
+    <span>© 2026 Kidzsmart Communications</span>
   </div>
 </div>
 
